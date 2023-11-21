@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-Reto_Tenico_Jose_Quispe_R/Pods-Reto_Tenico_Jose_Quispe_R-frameworks.sh
+${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework

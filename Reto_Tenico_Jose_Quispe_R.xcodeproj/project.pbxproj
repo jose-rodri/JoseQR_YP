@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		458741EEA8585B85E554A0C2 /* Pods_Reto_Tenico_Jose_Quispe_R.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B5F4E8865AEF6BEF0697CDA /* Pods_Reto_Tenico_Jose_Quispe_R.framework */; };
 		888775782B0D6E210018EB50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775772B0D6E210018EB50 /* AppDelegate.swift */; };
 		8887757A2B0D6E210018EB50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775792B0D6E210018EB50 /* SceneDelegate.swift */; };
 		8887757C2B0D6E210018EB50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887757B2B0D6E210018EB50 /* ViewController.swift */; };
@@ -36,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		12B9FA07C031DD769BB9A7C5 /* Pods-Reto_Tenico_Jose_Quispe_R.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reto_Tenico_Jose_Quispe_R.debug.xcconfig"; path = "Target Support Files/Pods-Reto_Tenico_Jose_Quispe_R/Pods-Reto_Tenico_Jose_Quispe_R.debug.xcconfig"; sourceTree = "<group>"; };
+		4B5F4E8865AEF6BEF0697CDA /* Pods_Reto_Tenico_Jose_Quispe_R.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Reto_Tenico_Jose_Quispe_R.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		85CD6D4057C6729BB8EF0470 /* Pods-Reto_Tenico_Jose_Quispe_R.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reto_Tenico_Jose_Quispe_R.release.xcconfig"; path = "Target Support Files/Pods-Reto_Tenico_Jose_Quispe_R/Pods-Reto_Tenico_Jose_Quispe_R.release.xcconfig"; sourceTree = "<group>"; };
 		888775742B0D6E210018EB50 /* Reto_Tenico_Jose_Quispe_R.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reto_Tenico_Jose_Quispe_R.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		888775772B0D6E210018EB50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		888775792B0D6E210018EB50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				458741EEA8585B85E554A0C2 /* Pods_Reto_Tenico_Jose_Quispe_R.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +81,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4481DA7CF0E99108B4217E25 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12B9FA07C031DD769BB9A7C5 /* Pods-Reto_Tenico_Jose_Quispe_R.debug.xcconfig */,
+				85CD6D4057C6729BB8EF0470 /* Pods-Reto_Tenico_Jose_Quispe_R.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D0FCD306AEC53BC5FD35CC7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4B5F4E8865AEF6BEF0697CDA /* Pods_Reto_Tenico_Jose_Quispe_R.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8887756B2B0D6E200018EB50 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +106,8 @@
 				8887758D2B0D6E220018EB50 /* Reto_Tenico_Jose_Quispe_RTests */,
 				888775972B0D6E220018EB50 /* Reto_Tenico_Jose_Quispe_RUITests */,
 				888775752B0D6E210018EB50 /* Products */,
+				4481DA7CF0E99108B4217E25 /* Pods */,
+				7D0FCD306AEC53BC5FD35CC7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8887759E2B0D6E220018EB50 /* Build configuration list for PBXNativeTarget "Reto_Tenico_Jose_Quispe_R" */;
 			buildPhases = (
+				E6AAA3EDD1D5B3B325F15834 /* [CP] Check Pods Manifest.lock */,
 				888775702B0D6E210018EB50 /* Sources */,
 				888775712B0D6E210018EB50 /* Frameworks */,
 				888775722B0D6E210018EB50 /* Resources */,
+				5A22A6938AF62130D656813F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -207,7 +234,7 @@
 				};
 			};
 			buildConfigurationList = 8887756F2B0D6E200018EB50 /* Build configuration list for PBXProject "Reto_Tenico_Jose_Quispe_R" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -252,6 +279,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5A22A6938AF62130D656813F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reto_Tenico_Jose_Quispe_R/Pods-Reto_Tenico_Jose_Quispe_R-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Reto_Tenico_Jose_Quispe_R/Pods-Reto_Tenico_Jose_Quispe_R-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Reto_Tenico_Jose_Quispe_R/Pods-Reto_Tenico_Jose_Quispe_R-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AAA3EDD1D5B3B325F15834 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Reto_Tenico_Jose_Quispe_R-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		888775702B0D6E210018EB50 /* Sources */ = {
@@ -437,6 +506,7 @@
 		};
 		8887759F2B0D6E220018EB50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 12B9FA07C031DD769BB9A7C5 /* Pods-Reto_Tenico_Jose_Quispe_R.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -449,6 +519,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -464,6 +535,7 @@
 		};
 		888775A02B0D6E220018EB50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85CD6D4057C6729BB8EF0470 /* Pods-Reto_Tenico_Jose_Quispe_R.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -476,6 +548,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
