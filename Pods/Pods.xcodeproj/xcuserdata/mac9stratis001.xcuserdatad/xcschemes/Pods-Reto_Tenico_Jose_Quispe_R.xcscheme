@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "65F692A6FBB58E86F57FC78A87129BED"
-               BuildableName = "Pods-Reto_Tenico_Jose_Quispe_R.framework"
+               BuildableName = "Pods_Reto_Tenico_Jose_Quispe_R.framework"
                BlueprintName = "Pods-Reto_Tenico_Jose_Quispe_R"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "1702D443-E0DD-4B20-9D51-F4C0AF103229"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BEBBBD3A-3E12-4E86-99D9-CD4AE34BD00E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reto_Tenico_Jose_Quispe_R/HomeScreen/HomeScreenPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "20"
+            endingLineNumber = "20"
+            landmarkName = "updateView()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74B1B724-119B-47E8-B08C-D8415FB2FA58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reto_Tenico_Jose_Quispe_R/NetworkLayer/WebService/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "data(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8CDC51B7-5099-4EC9-A605-47A34B10BAC2"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reto_Tenico_Jose_Quispe_R/NetworkLayer/WebService/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "122"
+            endingLineNumber = "122"
+            landmarkName = "data(request:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0BD71FAF-75BA-4FFF-AEA2-381B0854A5F5"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reto_Tenico_Jose_Quispe_R/NetworkLayer/WebService/WebService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
+            landmarkName = "load(modelType:from:showLoader:hideLoader:base:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "0BD71FAF-75BA-4FFF-AEA2-381B0854A5F5 - 6ef6e45d9512db03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) throws -&gt; &#x3c4;_0_0 in Reto_Tenico_Jose_Quispe_R.WebService.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(modelType: &#x3c4;_0_0.Type, from: Reto_Tenico_Jose_Quispe_R.Endpoint, showLoader: Swift.Optional&lt;()&gt;, hideLoader: Swift.Optional&lt;()&gt;, base: Swift.Optional&lt;Foundation.URL&gt;) -&gt; RxSwift.Observable&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Reto_Tenico_Jose_Quispe_R"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_R/NetworkLayer/WebService/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "372">
+               </Location>
+               <Location
+                  uuid = "0BD71FAF-75BA-4FFF-AEA2-381B0854A5F5 - 6ef6e45d9512db03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Foundation.Data) throws -&gt; &#x3c4;_0_0 in Reto_Tenico_Jose_Quispe_R.WebService.load&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(modelType: &#x3c4;_0_0.Type, from: Reto_Tenico_Jose_Quispe_R.Endpoint, showLoader: Swift.Optional&lt;()&gt;, hideLoader: Swift.Optional&lt;()&gt;, base: Swift.Optional&lt;Foundation.URL&gt;) -&gt; RxSwift.Observable&lt;&#x3c4;_0_0&gt;"
+                  moduleName = "Reto_Tenico_Jose_Quispe_R"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_R/NetworkLayer/WebService/WebService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "76"
+                  endingLineNumber = "76"
+                  offsetFromSymbolStart = "472">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DDAA155C-5A3F-4904-826D-0763FA613A57"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reto_Tenico_Jose_Quispe_R/HomeScreen/HomeScreenPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "fetchedDataSuccess(data:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DDAA155C-5A3F-4904-826D-0763FA613A57 - 6e7ad444cb87b280"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reto_Tenico_Jose_Quispe_R.HomeScreenPresenter.fetchedDataSuccess(data: Reto_Tenico_Jose_Quispe_R.Users) -&gt; ()"
+                  moduleName = "Reto_Tenico_Jose_Quispe_R"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_R/HomeScreen/HomeScreenPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "DDAA155C-5A3F-4904-826D-0763FA613A57 - 6e7ad444cb87b2ef"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reto_Tenico_Jose_Quispe_R.HomeScreenPresenter.fetchedDataSuccess(data: Reto_Tenico_Jose_Quispe_R.Users) -&gt; ()"
+                  moduleName = "Reto_Tenico_Jose_Quispe_R"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_R/HomeScreen/HomeScreenPresenter.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "212">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "590C7E88-C49E-4265-89BE-6A356F5EBC61"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Reto_Tenico_Jose_Quispe_RTests/HomeScreemTest/UserListTest.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "UserListTest"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "590C7E88-C49E-4265-89BE-6A356F5EBC61 - bc5bd48bf6846cd1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reto_Tenico_Jose_Quispe_RTests.UserListTest.init(invocation: Swift.Optional&lt;__C.NSInvocation&gt;) -&gt; Reto_Tenico_Jose_Quispe_RTests.UserListTest"
+                  moduleName = "Reto_Tenico_Jose_Quispe_RTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_RTests/HomeScreemTest/UserListTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "590C7E88-C49E-4265-89BE-6A356F5EBC61 - 3acbe6e7a5bb46b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reto_Tenico_Jose_Quispe_RTests.UserListTest.init(selector: ObjectiveC.Selector) -&gt; Reto_Tenico_Jose_Quispe_RTests.UserListTest"
+                  moduleName = "Reto_Tenico_Jose_Quispe_RTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_RTests/HomeScreemTest/UserListTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "590C7E88-C49E-4265-89BE-6A356F5EBC61 - 15523430b66f9af3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Reto_Tenico_Jose_Quispe_RTests.UserListTest.init() -&gt; Reto_Tenico_Jose_Quispe_RTests.UserListTest"
+                  moduleName = "Reto_Tenico_Jose_Quispe_RTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac9stratis001/Desktop/Demo/Reto_Tenico_Jose_Quispe_R/Reto_Tenico_Jose_Quispe_RTests/HomeScreemTest/UserListTest.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

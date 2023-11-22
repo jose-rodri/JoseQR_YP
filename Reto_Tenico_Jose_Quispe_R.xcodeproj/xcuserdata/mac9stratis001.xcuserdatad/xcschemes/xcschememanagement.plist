@@ -7,7 +7,25 @@
 		<key>Reto_Tenico_Jose_Quispe_R.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>888775732B0D6E210018EB50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>888775892B0D6E220018EB50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>888775932B0D6E220018EB50</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
