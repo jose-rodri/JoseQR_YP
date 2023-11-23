@@ -2,7 +2,7 @@
 //  HomeScreenProtocols.swift
 //  Reto_Tenico_Jose_Quispe_R
 //
-//  Created by MAC9STRATIS001 on 21/11/23.
+//  Created by MACJOSE on 21/11/23.
 //
 
 
@@ -34,9 +34,12 @@ protocol HomeScreenViewToPresenterProtocol: AnyObject {
     var router: HomeScreenPresenterToRouterProtocol? { get set }
     
     func updateView()
+    func prepareToGoToDetail(origin: UIViewController, data: UserResult)
+    func prepareToGoToMap(origin: UIViewController, data: UserResult)
 }
 
 protocol  HomeScreenPresenterToRouterProtocol: AnyObject {
     static func createModule(usingNavigationFactory factory: NavigationFactory) -> UINavigationController
-    func prepareToGoToDetail(origin: UIViewController, data: Users)
+    func prepareToGoToDetail(origin: UIViewController, data: UserResult)
+    func prepareToGoToMap(origin: UIViewController, data: UserResult)
 }

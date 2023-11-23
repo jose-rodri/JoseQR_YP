@@ -2,7 +2,7 @@
 //  HomeScreenViewController+View.swift
 //  Reto_Tenico_Jose_Quispe_R
 //
-//  Created by MAC9STRATIS001 on 22/11/23.
+//  Created by MACJOSE on 22/11/23.
 //
 
 import Foundation
@@ -17,6 +17,13 @@ extension HomeScreenViewController {
             view.translatesAutoresizingMaskIntoConstraints = false
             view.backgroundColor = .white
             return view
+        }()
+        
+        public let searchBar: UISearchBar = {
+            let searchBar = UISearchBar()
+            searchBar.translatesAutoresizingMaskIntoConstraints = false
+            searchBar.placeholder = "Find"
+            return searchBar
         }()
         
         public lazy var tableView: UITableView = {
@@ -44,12 +51,18 @@ extension HomeScreenViewController {
         private func setupViews() {
             addSubview(baseView)
             baseView.addSubview(tableView)
+            baseView.addSubview(searchBar)
             configureTableView()
             setupConstraints()
+            
+            
+            
+
         }
         
         private func configureTableView() {
             tableView.register(HomeTableViewCell.self)
+            
         }
         
         private func setupConstraints() {
@@ -59,7 +72,11 @@ extension HomeScreenViewController {
                 baseView.leadingAnchor.constraint(equalTo: leadingAnchor),
                 baseView.trailingAnchor.constraint(equalTo: trailingAnchor),
                 
-                tableView.topAnchor.constraint(equalTo: baseView.topAnchor),
+                searchBar.leadingAnchor.constraint(equalTo: baseView.leadingAnchor),
+                searchBar.trailingAnchor.constraint(equalTo: baseView.trailingAnchor),
+                searchBar.topAnchor.constraint(equalTo: baseView.safeAreaLayoutGuide.topAnchor),
+                
+                tableView.topAnchor.constraint(equalTo: searchBar.bottomAnchor, constant: 10),
                 tableView.bottomAnchor.constraint(equalTo: baseView.bottomAnchor),
                 tableView.leadingAnchor.constraint(equalTo: baseView.leadingAnchor),
                 tableView.trailingAnchor.constraint(equalTo: baseView.trailingAnchor)

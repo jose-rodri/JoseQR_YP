@@ -2,7 +2,7 @@
 //  HomeScreenInteractor.swift
 //  Reto_Tenico_Jose_Quispe_R
 //
-//  Created by MAC9STRATIS001 on 21/11/23.
+//  Created by MACJOSE on 21/11/23.
 //
 
 import RxSwift
@@ -25,6 +25,4 @@ class HomeScreenInteractor : HomeScreenPresenterToInteractorProtocol {
                 self?.presenter?.fetchedDataError()
             }).disposed(by: disposeBag)
     }
-    
-    
 }

@@ -15,7 +15,7 @@ struct Info: Codable {
 
 struct UserResult: Codable {
     let gender: String?
-    let name: Name?
+    let name: NameUser?
     let location: Location?
     let email: String?
     //let login: Login?
@@ -65,7 +65,7 @@ struct Login: Codable {
     let uuid, username, password, salt: String?
     let md5, sha1, sha256: String?
 }
-struct Name: Codable {
+struct NameUser: Codable {
     let title, first, last: String?
 }
 

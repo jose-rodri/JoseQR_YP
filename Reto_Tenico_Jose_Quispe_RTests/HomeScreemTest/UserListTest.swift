@@ -2,7 +2,7 @@
 //  UserListTest.swift
 //  Reto_Tenico_Jose_Quispe_RTests
 //
-//  Created by MAC9STRATIS001 on 21/11/23.
+//  Created by MACJOSE on 21/11/23.
 //
 
 import XCTest

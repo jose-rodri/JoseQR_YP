@@ -2,7 +2,7 @@
 //  HomeScreenRouter.swift
 //  Reto_Tenico_Jose_Quispe_R
 //
-//  Created by MAC9STRATIS001 on 21/11/23.
+//  Created by MACJOSE on 21/11/23.
 //
 
 
@@ -28,8 +28,13 @@ class HomeScreenRouter: HomeScreenPresenterToRouterProtocol {
     }
     
     
-    func prepareToGoToDetail(origin: UIViewController, data: Users){
-//        let vc = DetailRouter.createModule(data: data)
-//        origin.navigationController?.pushViewController(vc, animated: true)
+    func prepareToGoToDetail(origin: UIViewController, data: UserResult){
+        let vc = DetailRouter.createModule(data: data)
+        origin.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    func prepareToGoToMap(origin: UIViewController, data: UserResult) {
+        let vc = MapRouter.createModule(data: data)
+        origin.navigationController?.pushViewController(vc, animated: true)
     }
 }

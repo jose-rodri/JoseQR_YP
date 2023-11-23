@@ -2,7 +2,7 @@
 //  HomeScreenPresenter.swift
 //  Reto_Tenico_Jose_Quispe_R
 //
-//  Created by MAC9STRATIS001 on 21/11/23.
+//  Created by MACJOSE on 21/11/23.
 //
 
 
@@ -18,9 +18,16 @@ class HomeScreenPresenter: HomeScreenViewToPresenterProtocol{
     
     func updateView() {
         interactor?.prepareResponseForModel()
-        
     }
     
+    func prepareToGoToDetail(origin: UIViewController, data: UserResult) {
+        self.router?.prepareToGoToDetail(origin: origin, data: data)
+    }
+    
+    func prepareToGoToMap(origin: UIViewController, data: UserResult) {
+        self.router?.prepareToGoToMap(origin: origin, data: data)
+    }
+   
     
 }
 
@@ -28,12 +35,10 @@ class HomeScreenPresenter: HomeScreenViewToPresenterProtocol{
 extension HomeScreenPresenter : HomeScreenInteractorToPresenterProtocol {
     func fetchedDataSuccess(data: Users) {
         print(data)
-        
         self.view?.dataUsers(data: data)
     }
     
     func fetchedDataError() {
         print("Error when getting service ")
     }
-   
 }

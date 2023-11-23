@@ -37,6 +37,18 @@
 		888775E82B0E9BC70018EB50 /* TableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775E72B0E9BC70018EB50 /* TableCell.swift */; };
 		888775EA2B0E9F270018EB50 /* HomeScreemDelegate+Datasource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775E92B0E9F270018EB50 /* HomeScreemDelegate+Datasource.swift */; };
 		888775EC2B0EA5450018EB50 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775EB2B0EA5450018EB50 /* Color.swift */; };
+		888776002B0EB4A30018EB50 /* DetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775F92B0EB4A30018EB50 /* DetailRouter.swift */; };
+		888776012B0EB4A30018EB50 /* DetailProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775FA2B0EB4A30018EB50 /* DetailProtocol.swift */; };
+		888776022B0EB4A30018EB50 /* DetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775FB2B0EB4A30018EB50 /* DetailPresenter.swift */; };
+		888776032B0EB4A30018EB50 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888775FC2B0EB4A30018EB50 /* DetailViewController.xib */; };
+		888776042B0EB4A30018EB50 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775FD2B0EB4A30018EB50 /* DetailViewController.swift */; };
+		888776062B0EB4A30018EB50 /* DetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888775FF2B0EB4A30018EB50 /* DetailInteractor.swift */; };
+		8887760C2B0EBC470018EB50 /* MapInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887760B2B0EBC470018EB50 /* MapInteractor.swift */; };
+		8887760E2B0EBC4F0018EB50 /* MapPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887760D2B0EBC4F0018EB50 /* MapPresenter.swift */; };
+		888776102B0EBC570018EB50 /* MapRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8887760F2B0EBC570018EB50 /* MapRouter.swift */; };
+		888776122B0EBC600018EB50 /* MapProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888776112B0EBC600018EB50 /* MapProtocols.swift */; };
+		888776152B0EBD1D0018EB50 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888776132B0EBD1D0018EB50 /* MapViewController.swift */; };
+		888776162B0EBD1D0018EB50 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888776142B0EBD1D0018EB50 /* MapViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -93,6 +105,18 @@
 		888775E72B0E9BC70018EB50 /* TableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCell.swift; sourceTree = "<group>"; };
 		888775E92B0E9F270018EB50 /* HomeScreemDelegate+Datasource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeScreemDelegate+Datasource.swift"; sourceTree = "<group>"; };
 		888775EB2B0EA5450018EB50 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		888775F92B0EB4A30018EB50 /* DetailRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailRouter.swift; sourceTree = "<group>"; };
+		888775FA2B0EB4A30018EB50 /* DetailProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailProtocol.swift; sourceTree = "<group>"; };
+		888775FB2B0EB4A30018EB50 /* DetailPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailPresenter.swift; sourceTree = "<group>"; };
+		888775FC2B0EB4A30018EB50 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
+		888775FD2B0EB4A30018EB50 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		888775FF2B0EB4A30018EB50 /* DetailInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInteractor.swift; sourceTree = "<group>"; };
+		8887760B2B0EBC470018EB50 /* MapInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapInteractor.swift; sourceTree = "<group>"; };
+		8887760D2B0EBC4F0018EB50 /* MapPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapPresenter.swift; sourceTree = "<group>"; };
+		8887760F2B0EBC570018EB50 /* MapRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapRouter.swift; sourceTree = "<group>"; };
+		888776112B0EBC600018EB50 /* MapProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapProtocols.swift; sourceTree = "<group>"; };
+		888776132B0EBD1D0018EB50 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		888776142B0EBD1D0018EB50 /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +238,12 @@
 		888775A82B0D71970018EB50 /* DetailScreen */ = {
 			isa = PBXGroup;
 			children = (
+				888775FF2B0EB4A30018EB50 /* DetailInteractor.swift */,
+				888775FB2B0EB4A30018EB50 /* DetailPresenter.swift */,
+				888775FA2B0EB4A30018EB50 /* DetailProtocol.swift */,
+				888775F92B0EB4A30018EB50 /* DetailRouter.swift */,
+				888775FD2B0EB4A30018EB50 /* DetailViewController.swift */,
+				888775FC2B0EB4A30018EB50 /* DetailViewController.xib */,
 			);
 			path = DetailScreen;
 			sourceTree = "<group>";
@@ -221,6 +251,12 @@
 		888775A92B0D719F0018EB50 /* MapScreen */ = {
 			isa = PBXGroup;
 			children = (
+				8887760B2B0EBC470018EB50 /* MapInteractor.swift */,
+				8887760D2B0EBC4F0018EB50 /* MapPresenter.swift */,
+				8887760F2B0EBC570018EB50 /* MapRouter.swift */,
+				888776112B0EBC600018EB50 /* MapProtocols.swift */,
+				888776132B0EBD1D0018EB50 /* MapViewController.swift */,
+				888776142B0EBD1D0018EB50 /* MapViewController.xib */,
 			);
 			path = MapScreen;
 			sourceTree = "<group>";
@@ -438,6 +474,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				888775842B0D6E220018EB50 /* LaunchScreen.storyboard in Resources */,
+				888776032B0EB4A30018EB50 /* DetailViewController.xib in Resources */,
+				888776162B0EBD1D0018EB50 /* MapViewController.xib in Resources */,
 				888775812B0D6E220018EB50 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -505,30 +543,40 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				888776002B0EB4A30018EB50 /* DetailRouter.swift in Sources */,
 				888775B32B0D73010018EB50 /* HomeScreenInteractor.swift in Sources */,
+				888776022B0EB4A30018EB50 /* DetailPresenter.swift in Sources */,
+				8887760E2B0EBC4F0018EB50 /* MapPresenter.swift in Sources */,
 				888775CE2B0D748D0018EB50 /* Toast.swift in Sources */,
 				888775CA2B0D74690018EB50 /* RoundedButton.swift in Sources */,
+				888776012B0EB4A30018EB50 /* DetailProtocol.swift in Sources */,
 				888775AF2B0D72EF0018EB50 /* HomeScreenRouter.swift in Sources */,
+				888776102B0EBC570018EB50 /* MapRouter.swift in Sources */,
 				888775BA2B0D73FF0018EB50 /* Endpoint.swift in Sources */,
 				888775EC2B0EA5450018EB50 /* Color.swift in Sources */,
 				888775BB2B0D73FF0018EB50 /* MovieNetwork.swift in Sources */,
 				888775E62B0E70CE0018EB50 /* UIView.swift in Sources */,
+				888776152B0EBD1D0018EB50 /* MapViewController.swift in Sources */,
 				888775AB2B0D72DD0018EB50 /* HomeScreenViewController.swift in Sources */,
+				888776122B0EBC600018EB50 /* MapProtocols.swift in Sources */,
 				888775AD2B0D72E50018EB50 /* HomeScreenPresenter.swift in Sources */,
 				888775782B0D6E210018EB50 /* AppDelegate.swift in Sources */,
 				888775D22B0D7D270018EB50 /* Model.swift in Sources */,
 				888775D72B0E6A470018EB50 /* HomeScreenViewController+View.swift in Sources */,
 				8887757A2B0D6E210018EB50 /* SceneDelegate.swift in Sources */,
 				888775BD2B0D73FF0018EB50 /* ServiceProtocols.swift in Sources */,
+				8887760C2B0EBC470018EB50 /* MapInteractor.swift in Sources */,
 				888775BC2B0D73FF0018EB50 /* WebService.swift in Sources */,
 				888775E22B0E6D400018EB50 /* HomeTableViewCell.swift in Sources */,
 				888775EA2B0E9F270018EB50 /* HomeScreemDelegate+Datasource.swift in Sources */,
+				888776062B0EB4A30018EB50 /* DetailInteractor.swift in Sources */,
 				888775E82B0E9BC70018EB50 /* TableCell.swift in Sources */,
 				888775C72B0D74560018EB50 /* Constants.swift in Sources */,
 				888775C02B0D741E0018EB50 /* NavigationFactory.swift in Sources */,
 				888775B12B0D72F70018EB50 /* HomeScreenProtocols.swift in Sources */,
 				888775DA2B0E6A930018EB50 /* Utils.swift in Sources */,
 				888775D02B0D75090018EB50 /* ActivityIndicator.swift in Sources */,
+				888776042B0EB4A30018EB50 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
