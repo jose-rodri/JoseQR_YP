@@ -13,7 +13,7 @@ import UIKit
 
 protocol HomeScreenPresenterToViewProtocol: AnyObject {
     func dataUsers(data: Users)
-
+    
 }
 
 protocol HomeScreenInteractorToPresenterProtocol: AnyObject {

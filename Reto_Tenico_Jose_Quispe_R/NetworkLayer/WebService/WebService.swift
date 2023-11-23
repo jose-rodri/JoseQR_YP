@@ -65,7 +65,7 @@ final internal class WebService {
                 vc?.hideLoader()
             } else { showLoader }
             
-            print("request: \(request)")
+    
             return session.rx.data(request: request)
                 .map {
                     

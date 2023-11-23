@@ -30,7 +30,7 @@ extension HomeScreenViewController {
             let tableView = UITableView()
             tableView.translatesAutoresizingMaskIntoConstraints = false
             tableView.separatorStyle = .none
-           
+            
             return tableView
         }()
         
@@ -54,10 +54,6 @@ extension HomeScreenViewController {
             baseView.addSubview(searchBar)
             configureTableView()
             setupConstraints()
-            
-            
-            
-
         }
         
         private func configureTableView() {
@@ -71,11 +67,9 @@ extension HomeScreenViewController {
                 baseView.bottomAnchor.constraint(equalTo: bottomAnchor),
                 baseView.leadingAnchor.constraint(equalTo: leadingAnchor),
                 baseView.trailingAnchor.constraint(equalTo: trailingAnchor),
-                
                 searchBar.leadingAnchor.constraint(equalTo: baseView.leadingAnchor),
                 searchBar.trailingAnchor.constraint(equalTo: baseView.trailingAnchor),
                 searchBar.topAnchor.constraint(equalTo: baseView.safeAreaLayoutGuide.topAnchor),
-                
                 tableView.topAnchor.constraint(equalTo: searchBar.bottomAnchor, constant: 10),
                 tableView.bottomAnchor.constraint(equalTo: baseView.bottomAnchor),
                 tableView.leadingAnchor.constraint(equalTo: baseView.leadingAnchor),

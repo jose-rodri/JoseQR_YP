@@ -4,7 +4,6 @@ import Foundation
 // MARK: - Users
 struct Users: Codable {
     let results: [UserResult]?
-  
 }
 
 struct Info: Codable {
@@ -54,7 +53,7 @@ struct Street: Codable {
 
 struct Timezone: Codable {
     let offset, timezoneDescription: String?
-
+    
     enum CodingKeys: String, CodingKey {
         case offset
         case timezoneDescription

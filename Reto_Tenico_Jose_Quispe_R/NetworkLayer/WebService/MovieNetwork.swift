@@ -14,14 +14,14 @@ enum UserService: ServiceEnum {
 }
 
 struct UserNetworkFactory: Networking {
-
+    
     typealias EnumType = UserService
     static func getService(from type: EnumType) -> Requestable {
         switch type {
-     
+            
         case .UserList:
             return MovieNetwork()
-       
+            
         }
     }
 }
@@ -32,7 +32,7 @@ extension UserNetworkFactory {
         var method: HTTPMethod = .get
         var path: String =  Constant.Endpoint.listUser
         var parameters: [String: Any] = [:]
-
+        
     }
-
+    
 }

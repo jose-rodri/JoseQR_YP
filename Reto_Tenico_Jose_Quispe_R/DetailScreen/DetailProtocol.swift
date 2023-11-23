@@ -22,7 +22,6 @@ protocol DetailInteractorToPresenterProtocol: AnyObject {
 
 protocol DetailPresenterToInteractorProtocol: AnyObject {
     var presenter: DetailInteractorToPresenterProtocol? { get set }
-    
 }
 
 
@@ -31,7 +30,6 @@ protocol DetailViewToPresenterProtocol: AnyObject {
     var interactor:  DetailPresenterToInteractorProtocol? { get set }
     var router: DetailPresenterToRouterProtocol? { get set }
     var data: UserResult? { get set }
-    
     func updateView()
 }
 

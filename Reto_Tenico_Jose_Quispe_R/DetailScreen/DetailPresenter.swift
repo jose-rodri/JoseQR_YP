@@ -13,9 +13,8 @@ import SDWebImage
 
 class DetailPresenter: DetailViewToPresenterProtocol{
     
-    
-    var view:  DetailPresenterToViewProtocol?
-    var interactor:  DetailPresenterToInteractorProtocol?
+    var view: DetailPresenterToViewProtocol?
+    var interactor: DetailPresenterToInteractorProtocol?
     var router:  DetailPresenterToRouterProtocol?
     
     var data: UserResult?
@@ -24,7 +23,6 @@ class DetailPresenter: DetailViewToPresenterProtocol{
         loadData()
       
     }
-    
     
     func loadData() {
       

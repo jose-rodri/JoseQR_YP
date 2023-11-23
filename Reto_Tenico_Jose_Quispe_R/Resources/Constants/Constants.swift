@@ -18,8 +18,6 @@ struct Constant {
         static let listUser = "?results=20"
       
     }
-    
-  
 }
 
 

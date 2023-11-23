@@ -9,24 +9,24 @@ import Foundation
 
 internal enum Endpoint {
     case userList(serviceType: UserService)
- 
+    
 }
 
 
 internal extension Endpoint {
     func request(with baseURL: URL) -> URLRequest {
-   
+        
         let baseURLWithPath = baseURL.appendingPathComponent(properties.path).absoluteString.removingPercentEncoding
-
+        
         var newParameters = properties.parameters
         properties.parameters.forEach { newParameters.updateValue($1, forKey: $0) }
-     
+        
         
         let components = URLComponents(url: URL(string: baseURLWithPath!)! , resolvingAgainstBaseURL: false)!
-
+        
         var request = URLRequest(url: components.url!)
         request.httpMethod = properties.method.rawValue
-
+        
         if properties.method == .post {
             var headers = request.allHTTPHeaderFields ?? [:]
             headers["Content-Type"] = "application/json"
@@ -34,20 +34,20 @@ internal extension Endpoint {
             let jsonString = properties.jsonString
             request.httpBody = jsonString.data(using: String.Encoding.utf8)
         }
-
+        
         return request
     }
     
     func requestFirebase(with baseURL: URL) -> URLRequest {
-                
+        
         var newParameters = properties.parameters
         properties.parameters.forEach { newParameters.updateValue($1, forKey: $0) }
         
         let components = URLComponents(url: baseURL, resolvingAgainstBaseURL: false)!
-
+        
         var request = URLRequest(url: components.url!)
         request.httpMethod = properties.method.rawValue
-
+        
         return request
     }
     

@@ -27,14 +27,12 @@ class HomeScreenPresenter: HomeScreenViewToPresenterProtocol{
     func prepareToGoToMap(origin: UIViewController, data: UserResult) {
         self.router?.prepareToGoToMap(origin: origin, data: data)
     }
-   
     
 }
 
 
 extension HomeScreenPresenter : HomeScreenInteractorToPresenterProtocol {
     func fetchedDataSuccess(data: Users) {
-        print(data)
         self.view?.dataUsers(data: data)
     }
     
